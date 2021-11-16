@@ -1,0 +1,4 @@
+{   "pli":["PROCEDURE","MAIN"], "ktl":["fun","main", "(args: Array<String>)" ] }
+{"pli":["PROCEDURE","{{name}}"],"ktl":["fun","{{name}}()"] }
+{"pli": ["PROCEDURE", "{{name}}", "{{param0}}", "{{type0}}"],"ktl":["fun","{{name}}({{param0}} : {{type0}})"] }
+{"pli": ["DECLARE", "{{name}}","{{type}}"], "ktl":["var","{{name}} : {{type}}" ] }

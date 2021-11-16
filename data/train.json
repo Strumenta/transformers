@@ -1,0 +1,11 @@
+{"pli":["PROCEDURE","MAIN","{{type0}}","{{type1}}"],"ktl":["fun","main", "(args: {{type0}}<{{type1}}>)" ] }
+{"pli":["PROCEDURE","{{name}}"],"ktl":["fun","{{name}}()"] }
+{"pli":["PROCEDURE", "{{name}}", "{{param0}}", "{{type0}}", "{{return}}"],"ktl":["fun","{{name}}({{param0}} : {{type0}}) : {{return}}"] }
+{"pli":["DECLARE", "{{name}}","{{type}}"], "ktl":["var","{{name}} : {{type}}" ] }
+{"pli":["ASSIGN", "{{name}}","{{value}}"], "ktl":["{{name}} = {{value}}" ] }
+{"pli":["CALL","{{name}}"],"ktl":["{{name}}()"] }
+{"pli":["CALL", "{{name}}", "{{param0}}" ],"ktl":["{{name}}({{param0}})"] }
+{"pli":["IF", "{{value}}", "THEN" ],"ktl":["if({{value}})"] }
+{"pli":["RETURN","{{value}}"],"ktl":["return {{value}}"] }
+{"pli":["DO"], "ktl":["{"]}
+{"pli":["END"],"ktl":["}"]}

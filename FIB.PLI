@@ -1,0 +1,18 @@
+
+ Factorial: proc options (main);
+    dcl (n,result) fixed bin(31);
+    n  = 5;
+    result = Compute_factorial(n);
+
+ end Factorial;
+  /***********************************************/
+  /* Subroutine                                  */
+  /***********************************************/
+  Compute_factorial: proc (n)  returns (fixed bin(31));
+     dcl n fixed bin(15);
+      if n <= 1 then
+        return(1);
+
+     return( n*Compute_factorial(n-1) );
+
+  end Compute_factorial;
